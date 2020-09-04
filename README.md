@@ -1,4 +1,4 @@
-# SysImages
+# SysImages.jl
 
 This package is an experiment to mitigate some of the annoying issues for building and linking sysimages per-project basis. This package extends `Project.toml` with additional entry `[sysimg]` where the user specifies a list of packages which should be baked in the sysimage. That allows avoiding repetitions and separate development environment (where I personally put `Revise`) from the project environment by collecting all packages from the project files listed in  `Base.load_path()`. For example, a project file:
 ```
