@@ -1,0 +1,8 @@
+name = "SysImages"
+uuid = "22d89d98-8c23-4261-8b4f-762ecff77e45"
+authors = ["akels <akels14@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"

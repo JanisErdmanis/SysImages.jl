@@ -1,0 +1,3 @@
+#!/bin/bash
+SYSARG=$(julia --project=. -e "using SysImages; println(SysImages.link())")
+julia --project=. $SYSARG
